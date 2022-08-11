@@ -20,10 +20,6 @@ $con = json_encode($new);
 $newArr = json_decode($con, true);
 $true = true;
 
-//var_dump($_xlsx->rows());
-var_dump(sizeof($newArr['torcedor']));
-var_dump(sizeof($_xlsx->rows()));
-
 if(sizeof($newArr['torcedor']) == sizeof($_xlsx->rows())){
   foreach($_xlsx->rows() as $key1 => $dadosExcel){
     if($pulaPrimeiraLinha > 0){
