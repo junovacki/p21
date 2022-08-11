@@ -21,5 +21,4 @@ indicando que houve alteração entre o arquivo gerado e o arquivo enviado e que
 
 
 ## Tive um problema para pegar o arquivo ali do files e acabei setando manualmente o caminho para o arquivo do pdf (clientes.xlsx) **Baixei e apontei para o mesmo
-## Devi a eu não ter um mail service configurado ele não enviou mas é só trocar os dados de qual email será enviado e ter um mailservice configurado ao seu apache que
-vai funcionar
+## Devido a eu não ter um mail service configurado ele não enviou mas é só trocar os dados de qual email será enviado e ter um mailservice configurado ao seu apache que vai funcionar
